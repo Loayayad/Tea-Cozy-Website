@@ -11,7 +11,7 @@ function validate() {
         return false;
     }
     if (document.myForm.Password.value == "") {
-        alert("Please provide your Email!");
+        alert("Please provide your Password!");
         document.myForm.Password.focus();
         return false;
     }
