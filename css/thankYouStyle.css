@@ -20,8 +20,28 @@ div {
 }
 
 div h1 {
-    color: coral;
+    color: #ffc400ec;
     text-transform: uppercase;
     font-size: xx-large;
     font-weight: 1000;
+}
+
+input[type="Button"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+input[type="Button"]:hover {
+    background: #ffc400ec;
 }

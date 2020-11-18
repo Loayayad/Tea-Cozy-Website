@@ -11,10 +11,10 @@ function validate() {
        return false;
     }
     if( document.myForm.Password.value == "" ||
-       document.myForm.Password.value.length > 7 ) {
+       document.myForm.Password.value.length < 8 ) {
        
        alert( "Please provide a Password with at least 8 characters." );
-       document.myForm.Zip.focus() ;
+       document.myForm.Password.focus() ;
        return false;
     }
     return( true );
