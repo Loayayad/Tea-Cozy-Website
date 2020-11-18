@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/img-locations-background.jpg");
+    background-color: rgb(57, 169, 219);
+    font-family: sans-serif, Arial;
+    background-size: 100%;
+}
+
+div {
+    width: 300px;
+    height: fit-content;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+div h1 {
+    color: coral;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 1000;
+}
