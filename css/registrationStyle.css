@@ -46,7 +46,7 @@ body {
       border-color: #ffc400ec;
   }
 
-  .box input[type="submit"]{
+  .box #submit{
     border: 0;
     background: none;
     display: block;
@@ -62,6 +62,6 @@ body {
     cursor: pointer;
   }
 
-  .box input[type="submit"]:hover{
+  .box #submit:hover{
       background: #ffc400ec;
   }
